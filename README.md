@@ -7,7 +7,21 @@
 
 ## 설문 조사
 - https://forms.office.com/r/nTN3FmSzcz
-  
+
+## 주여 명령 문장
+- 설치된 패키지 목록 확인
+  - installed.packages()
+- 현재 메모리에 올린 패키지 목록
+  - library()
+- 패키지 설치
+  - install.packages("ggplot2")
+- 설치된 패키지를 로드하려면:
+  - library(ggplot2)
+- 설치된 패키지를 메모리에서 내리려면:
+  - detach("package:ggplot2")
+- 설치된 패키지 삭제
+  - remove.packages("ggplot2")
+
 ## 공공데이터 사이트
 - 국내의 공공데이터 사이트는 다양한 분야의 데이터를 제공하여 연구, 정책 수립, 비즈니스 등 여러 용도로 활용될 수 있습니다. 아래는 주요 공공데이터 사이트 목록입니다.
 
