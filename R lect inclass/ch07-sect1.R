@@ -84,7 +84,9 @@ na.cnt[na.cnt > 0]
 # code 7-5
 # 모든 셀에 대해 na 검사
 x <- iris
-x
+x[1,2] <- NA; x[1,3] <- NA
+x[2,3] <- NA; 
+x[3,4] <- NA  
 is.na(x)
 
 rowSums(is.na(x))         # 행별 NA의 개수
