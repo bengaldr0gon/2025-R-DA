@@ -47,6 +47,7 @@ boxplot(st$Income)$out
 
 # code 7-8
 out.val <- boxplot.stats(st$Income)$out    # 특이값 추출
+# out.val이 벡터여도 처리 가능
 st$Income[st$Income %in% out.val] <- NA    # 특이값을 NA로 대체
 head(st)
 newdata <- st[complete.cases(st),]         # NA가 포함된 행 제거
