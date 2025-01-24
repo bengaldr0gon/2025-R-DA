@@ -6,7 +6,8 @@
 - $ git clone https://github.com/ai7dnn/2025-R-DA.git
 
 ## 설문 조사
-- https://forms.office.com/r/nTN3FmSzcz
+- (수강전) 
+- (수강후) https://forms.office.com/r/bkWk5yH54n
 
 ## 주여 명령 문장
 - 설치된 패키지 목록 확인
